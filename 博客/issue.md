@@ -6,19 +6,6 @@
 
 `tar -zxvf link?target=https:%2F%2Frepo.huaweicloud.com%2Fopenharmony%2Fos%2F4.1-Release%2Fdayu200_standard_arm32.tar.gz --force-local`
 
-
-
-adsds
-
-
-
-
-
-
-
-
-
-
 # 常用命令
 
 1. tab 键自动补全
