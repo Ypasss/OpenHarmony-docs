@@ -15,8 +15,8 @@
    注意：在提交前需要设置你的用户名和邮箱地址
 
    ```
-   git config –global user.name “用户名”
-   git config –global user.email “邮箱地址”
+   git config –-global user.name “用户名”
+   git config –-global user.email “邮箱地址”
    ```
 
 ### 常用 git 命令
