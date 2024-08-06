@@ -57,3 +57,16 @@
 
     Ctrl + z 转入后台运行
     ```
+
+
+
+
+# DeviceHost 和 PnPManager
+
+USB（UniversalSerialBus），即“通用串行总线”，也称通用串联接口。
+
+Host 就是主，起到控制作用；Device(slave)就是从，是被控制的。例如主机的 USB 口，可以识别 U 盘或者是其它 USB 设备，所以主机的 USB 就是 Host 接口，而 U 盘的就是 Device。OTG就是指既可以做 Host 口亦可以做 device 口。
+
+就是说：USB Host是指驱动过后，板子可以连接USB接口连接的器件，读取和装载数据了，类似PC。USB Device是指驱动过后，板子可以当做一个USB移动设备，通过USB连接到电脑上，类似U盘。
+
+pnp管理器向内核和应用程序提供关于设备拔插的通知，是一个线程函数等待设备通知。
