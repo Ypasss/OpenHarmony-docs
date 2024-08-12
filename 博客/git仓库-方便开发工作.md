@@ -35,6 +35,8 @@
 
 7. `git push -f <URL>` 强制推送
 
+8. use "git restore <file>..." to discard changes in working directory)
+
 ### 远程仓库
 
 1. 如果您希望将本地仓库与远程仓库进行同步，您可以先在远程仓库中创建一个新的仓库，并获取远程仓库的URL。

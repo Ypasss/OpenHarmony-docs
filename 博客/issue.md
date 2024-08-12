@@ -74,3 +74,29 @@ pnp管理器向内核和应用程序提供关于设备拔插的通知，是一�
 # 编译
 
 dayu210的代码可能在编译这一块有些地方不完美。你可以把某些path写死，比如camera_path，board_xxx_path等等，就拿camera来说，你把几个.gni文件里面只要涉及到path的地方都 写死。
+
+### 报错一
+
+报错：`ninja: error: '../../drivers/peripheral/camera/vdi_base/v4l2/src/camera_dump.cpp', needed by 'obj/drivers/peripheral/camera/vdi_base/v4l2/src/camera_host_vdi_impl_1.0/camera_dump.o', missing and no known rule to make it`
+
+`camera_dump.cpp` 的路径设置错误。在 `/OpenHarmony/device/board/hihope/dayu210/camera/vdi_impl/v4l2/BUILD.gn` 中修改路径，
+
+![alt text](image.png)
+
+`/OpenHarmony/drivers/peripheral/camera/camera.gni` 中有 `$camera_path` 的值
+
+![alt text](image-1.png)
+
+
+
+
+
+
+https://blog.csdn.net/aa120515692/article/details/133806238
+
+[打补丁问题](https://blog.csdn.net/Blazar/article/details/131215232)
+
+https://laval.csdn.net/6559826d713f7b219982441f.html
+
+
+
