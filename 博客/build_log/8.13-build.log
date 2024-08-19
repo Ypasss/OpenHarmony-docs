@@ -1,0 +1,55 @@
+[OHOS ERROR] [14382/82737] ACTION //device/board/hihope/dayu210/camera/vdi_impl/v4l2:camera_host_vdi_impl_1.0__check(//build/toolchain/ohos:ohos_clang_arm64)
+[OHOS ERROR] FAILED: obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/camera_host_vdi_impl_1.0__check.txt 
+[OHOS ERROR] /usr/bin/env ../../build/templates/common/check_build_target.py --part-name device_rk3588 --subsystem-name device_rk3588 --target-path //device/board/hihope/dayu210/camera/vdi_impl/v4l2:camera_host_vdi_impl_1.0 --depfile gen/device/board/hihope/dayu210/camera/vdi_impl/v4l2/camera_host_vdi_impl_1.0__check.d --output obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/camera_host_vdi_impl_1.0__check.txt --compile-standard-allow-file ../preloader/dayu210/compile_standard_whitelist.json --deps //device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager:camera_device_manager //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_pipeline_core --external-deps c_utils:utils drivers_peripheral_camera:peripheral_camera_buffer_manager drivers_peripheral_camera:peripheral_camera_device_manager drivers_peripheral_camera:peripheral_camera_metadata_manager drivers_peripheral_camera:peripheral_camera_pipeline_core drivers_peripheral_camera:peripheral_camera_utils drivers_peripheral_camera:peripheral_camera_v4l2_adapter graphic_surface:surface hdf_core:libhdf_host hdf_core:libhdf_ipc_adapter hdf_core:libhdf_utils hdf_core:libhdi hilog:libhilog ipc:ipc_single hitrace:libhitracechain drivers_interface_camera:libbuffer_producer_sequenceable_1.0 drivers_interface_camera:metadata drivers_interface_display:libdisplay_composer_proxy_1.0 hitrace:hitrace_meter ipc:ipc_single
+[OHOS ERROR] Traceback (most recent call last):
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 71, in <module>
+[OHOS ERROR]     sys.exit(main())
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 58, in main
+[OHOS ERROR]     _depfile = check_external_deps.check(args)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 77, in check
+[OHOS ERROR]     check_parts_deps(args, external_part_name, parts_deps_info)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 56, in check_parts_deps
+[OHOS ERROR]     raise Exception(_warning_info)
+[OHOS ERROR] Exception: //device/board/hihope/dayu210/camera/vdi_impl/v4l2:camera_host_vdi_impl_1.0 depend part c_utils, need set part deps info to device_rk3588.
+
+[OHOS ERROR] [14391/82737] ACTION //device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager:camera_device_manager__check(//build/toolchain/ohos:ohos_clang_arm64)
+[OHOS ERROR] FAILED: obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager/camera_device_manager__check.txt 
+[OHOS ERROR] /usr/bin/env ../../build/templates/common/check_build_target.py --part-name device_rk3588 --subsystem-name device_rk3588 --target-path //device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager:camera_device_manager --depfile gen/device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager/camera_device_manager__check.d --output obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager/camera_device_manager__check.txt --compile-standard-allow-file ../preloader/dayu210/compile_standard_whitelist.json --deps --external-deps c_utils:utils drivers_peripheral_camera:peripheral_camera_device_manager drivers_peripheral_camera:peripheral_camera_v4l2_adapter hdf_core:libhdf_utils hilog:libhilog drivers_interface_camera:metadata
+[OHOS ERROR] Traceback (most recent call last):
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 71, in <module>
+[OHOS ERROR]     sys.exit(main())
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 58, in main
+[OHOS ERROR]     _depfile = check_external_deps.check(args)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 77, in check
+[OHOS ERROR]     check_parts_deps(args, external_part_name, parts_deps_info)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 56, in check_parts_deps
+[OHOS ERROR]     raise Exception(_warning_info)
+[OHOS ERROR] Exception: //device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager:camera_device_manager depend part c_utils, need set part deps info to device_rk3588.
+
+[OHOS ERROR] [14392/82737] ACTION //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_ipp_algo_example__check(//build/toolchain/ohos:ohos_clang_arm64)
+[OHOS ERROR] FAILED: obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_ipp_algo_example__check.txt 
+[OHOS ERROR] /usr/bin/env ../../build/templates/common/check_build_target.py --part-name device_rk3588 --subsystem-name device_rk3588 --target-path //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_ipp_algo_example --depfile gen/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_ipp_algo_example__check.d --output obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_ipp_algo_example__check.txt --compile-standard-allow-file ../preloader/dayu210/compile_standard_whitelist.json --deps --external-deps c_utils:utils
+[OHOS ERROR] Traceback (most recent call last):
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 71, in <module>
+[OHOS ERROR]     sys.exit(main())
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 58, in main
+[OHOS ERROR]     _depfile = check_external_deps.check(args)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 77, in check
+[OHOS ERROR]     check_parts_deps(args, external_part_name, parts_deps_info)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_external_deps.py", line 56, in check_parts_deps
+[OHOS ERROR]     raise Exception(_warning_info)
+[OHOS ERROR] Exception: //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_ipp_algo_example depend part c_utils, need set part deps info to device_rk3588.
+
+[OHOS ERROR] [14394/82737] ACTION //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_pipeline_core__check(//build/toolchain/ohos:ohos_clang_arm64)
+[OHOS ERROR] FAILED: obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_pipeline_core__check.txt 
+[OHOS ERROR] /usr/bin/env ../../build/templates/common/check_build_target.py --part-name device_rk3588 --subsystem-name device_rk3588 --target-path //device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_pipeline_core --depfile gen/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_pipeline_core__check.d --output obj/device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core/camera_pipeline_core__check.txt --compile-standard-allow-file ../preloader/dayu210/compile_standard_whitelist.json --deps //device/board/hihope/dayu210/camera/vdi_impl/v4l2:config.c //device/board/hihope/dayu210/camera/vdi_impl/v4l2:params.c //device/board/hihope/dayu210/camera/vdi_impl/v4l2/device_manager:camera_device_manager //device/soc/rockchip/rk3588/hardware/mpp:libmpp //device/soc/rockchip/rk3588/hardware/rga:librga //third_party/libjpeg-turbo:turbojpeg_static --external-deps drivers_peripheral_camera:peripheral_camera_buffer_manager drivers_peripheral_camera:peripheral_camera_device_manager drivers_peripheral_camera:peripheral_camera_metadata_manager drivers_peripheral_camera:peripheral_camera_pipeline_core drivers_peripheral_camera:peripheral_camera_utils drivers_peripheral_camera:peripheral_camera_v4l2_adapter hdf_core:libhdf_utils hilog:libhilog c_utils:utils drivers_interface_camera:libbuffer_producer_sequenceable_1.0 drivers_interface_camera:metadata graphic_surface:surface ipc:ipc_single
+[OHOS ERROR] Traceback (most recent call last):
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 71, in <module>
+[OHOS ERROR]     sys.exit(main())
+[OHOS ERROR]   File "/home/openharmony/out/rk3588/../../build/templates/common/check_build_target.py", line 54, in main
+[OHOS ERROR]     _depfile = check_deps_handler.check(args)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_deps_handler.py", line 175, in check
+[OHOS ERROR]     check_part_deps(args, part_pattern, path_parts_info,compile_standard_allow_info, depfiles)
+[OHOS ERROR]   File "/home/openharmony/build/templates/common/check_deps_handler.py", line 150, in check_part_deps
+[OHOS ERROR]     raise Exception(message)
+[OHOS ERROR] Exception: deps validation part_name: 'device_rk3588', target: '//device/board/hihope/dayu210/camera/vdi_impl/v4l2/pipeline_core:camera_pipeline_core', dep: '//device/soc/rockchip/rk3588/hardware/mpp:libmpp' failed!!!

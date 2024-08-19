@@ -1,0 +1,295 @@
+Set cache size limit to 100.0 GB
+[OHOS INFO] loader args:['platforms_config_file="/home/openharmony/out/preloader/dayu210/platforms.build"', 'subsystem_config_file="/home/openharmony/out/preloader/dayu210/subsystem_config.json"', 'example_subsystem_file=""', 'exclusion_modules_config_file="/home/openharmony/out/preloader/dayu210/exclusion_modules.json"', 'source_root_dir="/home/openharmony/"', 'gn_root_out_dir="out/rk3588"', 'build_platform_name=phone', 'build_xts=False', 'load_test_config=True', 'target_os=ohos', 'target_cpu=arm64', 'os_level=standard', "ignore_api_check=['xts', 'common', 'testfwk']", 'scalable_build=False', 'skip_partlist_check=False']
+[OHOS INFO] Excuting gn command: /home/openharmony/prebuilts/build-tools/linux-x86/bin/gn gen --args="product_name=\"dayu210\" product_path=\"/home/openharmony/vendor/hihope/dayu210\" product_config_path=\"/home/openharmony/vendor/hihope/dayu210\" device_name=\"rk3588\" device_path=\"/home/openharmony/device/board/HiHope/rk3588\" device_company=\"HiHope\" device_config_path=\"/home/openharmony/device/board/HiHope/rk3588\" target_cpu=\"arm64\" precise_branch=\"\" is_standard_system=true ohos_build_compiler_specified=\"\" ohos_build_time=1722619733092 ohos_build_datetime=\"2024-08-03 09:28:53\" ace_engine_feature_enable_accessibility=true ace_engine_feature_enable_web=true datamgr_service_udmf=true code_signature_support_oh_code_sign=false enable_ohos_startup_init_feature_ab_partition=true enable_ohos_startup_init_feature_loader=true dsoftbus_feature_conn_p2p=true dsoftbus_feature_disc_ble=true dsoftbus_feature_conn_br=true dsoftbus_feature_conn_ble=true dsoftbus_feature_trans_udp_stream=true wifi_feature_non_seperate_p2p=true wifi_feature_non_hdf_driver=true wifi_feature_with_hdi_chip_supported=false graphic_2d_feature_rs_enable_eglimage=true graphic_2d_feature_use_texgine=true multimedia_player_framework_use_codec_plugins=false audio_framework_feature_dtmf_tone=true audio_framework_feature_opensl_es=true audio_framework_feature_support_os_account=false input_feature_combination_key=true input_feature_pointer_drawing=true input_feature_interceptor=true input_feature_monitor=true input_feature_keyboard=true input_feature_mouse=true input_feature_touchscreen=true input_feature_input_device=true memmgr_purgeable_memory=true fusion_interaction_coordination=false wpa_supplicant_driver_nl80211=true hdf_core_platform_test_support=true drivers_peripheral_input_feature_support_ddk=true drivers_peripheral_input_feature_model=true drivers_peripheral_display_community=true drivers_peripheral_wlan_feature_enable_HDF_NL80211=true drivers_peripheral_wlan_feature_enable_HDF_UT=false drivers_peripheral_sensor_feature_model=true drivers_peripheral_audio_feature_hal_notsupport_pathselect=true drivers_peripheral_audio_feature_full_test_suite=true drivers_peripheral_audio_feature_alsa_lib=false drivers_peripheral_light_feature_model=true drivers_peripheral_vibrator_feature_model=true use_ffrt=true ohos_build_enable_ccache=true ohos_build_type=\"debug\" device_type=\"default\" build_variant=\"root\" root_perf_main=\"main\" runtime_mode=\"release\"" --args=product_name="dayu210" product_path="/home/openharmony/vendor/hihope/dayu210" product_config_path="/home/openharmony/vendor/hihope/dayu210" device_name="rk3588" device_path="/home/openharmony/device/board/HiHope/rk3588" device_company="HiHope" device_config_path="/home/openharmony/device/board/HiHope/rk3588" target_cpu="arm64" precise_branch="" is_standard_system=true ohos_build_compiler_specified="" ohos_build_time=1722619733092 ohos_build_datetime="2024-08-03 09:28:53" ace_engine_feature_enable_accessibility=true ace_engine_feature_enable_web=true datamgr_service_udmf=true code_signature_support_oh_code_sign=false enable_ohos_startup_init_feature_ab_partition=true enable_ohos_startup_init_feature_loader=true dsoftbus_feature_conn_p2p=true dsoftbus_feature_disc_ble=true dsoftbus_feature_conn_br=true dsoftbus_feature_conn_ble=true dsoftbus_feature_trans_udp_stream=true wifi_feature_non_seperate_p2p=true wifi_feature_non_hdf_driver=true wifi_feature_with_hdi_chip_supported=false graphic_2d_feature_rs_enable_eglimage=true graphic_2d_feature_use_texgine=true multimedia_player_framework_use_codec_plugins=false audio_framework_feature_dtmf_tone=true audio_framework_feature_opensl_es=true audio_framework_feature_support_os_account=false input_feature_combination_key=true input_feature_pointer_drawing=true input_feature_interceptor=true input_feature_monitor=true input_feature_keyboard=true input_feature_mouse=true input_feature_touchscreen=true input_feature_input_device=true memmgr_purgeable_memory=true fusion_interaction_coordination=false wpa_supplicant_driver_nl80211=true hdf_core_platform_test_support=true drivers_peripheral_input_feature_support_ddk=true drivers_peripheral_input_feature_model=true drivers_peripheral_display_community=true drivers_peripheral_wlan_feature_enable_HDF_NL80211=true drivers_peripheral_wlan_feature_enable_HDF_UT=false drivers_peripheral_sensor_feature_model=true drivers_peripheral_audio_feature_hal_notsupport_pathselect=true drivers_peripheral_audio_feature_full_test_suite=true drivers_peripheral_audio_feature_alsa_lib=false drivers_peripheral_light_feature_model=true drivers_peripheral_vibrator_feature_model=true use_ffrt=true ohos_build_enable_ccache=true ohos_build_type="debug" device_type="default" build_variant="root" root_perf_main="main" runtime_mode="release" /home/openharmony/out/rk3588
+root_out_dir=//out/rk3588
+root_build_dir=//out/rk3588
+root_gen_dir=//out/rk3588/gen
+current_toolchain=//build/toolchain/ohos:ohos_clang_arm64
+host_toolchain=//build/toolchain/linux:clang_x64
+power_interface_service
+power_interface_service
+intell_voice_engine_service
+intell_voice_engine_service
+intell_voice_engine_service
+intell_voice_trigger_service
+intell_voice_trigger_service
+intell_voice_trigger_service
+accessibility_feature_display_manager = true
+accessibility_feature_power_manager = true
+accessibility_use_rosen_drawing = true
+distributed_bundle_framework_graphics = true
+ability_runtime_enable_dbms = true
+account_enable_dbms = true
+distributed_bundle_framework_enable = true
+hisysevent_enable_dbms = true
+distributed_bundle_image_framework_enable = true
+idl config idl_list:  ["IQuickFixManager.idl"]
+idl config store:  ["//out/rk3588/gen/foundation/ability/ability_runtime/interfaces/inner_api/quick_fix/quick_fix_manager_proxy.cpp", "//out/rk3588/gen/foundation/ability/ability_runtime/interfaces/inner_api/quick_fix/quick_fix_manager_stub.cpp"] ["quick_fix_manager"]
+input_feature_combination_key = true
+input_feature_pointer_drawing = true
+input_feature_monitor = true
+input_feature_interceptor = true
+input_feature_keyboard = true
+input_feature_switch = true
+input_feature_mouse = true
+input_feature_joystick = true
+input_feature_touchscreen = true
+input_feature_input_device = true
+input_feature_short_key = true
+input_feature_infrared_emitter = true
+location_gnss
+location_gnss
+partitionslot_interface_service
+["--haptobin", "../../developtools/packing_tool/adapter/ohos", "--haptobinOutput", "obj/developtools/packing_tool/jar/haptobin_tool.jar", "--unpackOutput", "obj/developtools/packing_tool/jar/app_unpacking_tool.jar", "--packOutput", "obj/developtools/packing_tool/jar/app_packing_tool.jar", "--outpath", "obj/developtools/packing_tool/jar", "--checkOutput", "obj/developtools/packing_tool/jar/app_check_tool.jar", "--toolchain", "//build/toolchain/ohos:ohos_clang_arm64", "--compileTarget", "image"]
+drm_interface_service
+telephony_ext_feature = false
+dayu210_group in
+nnrt
+nnrt
+nnrt
+camera_service
+camera_service
+camera_service
+camera_service
+motion_service
+motion_service
+drivers_peripheral_fingerprint_auth
+scene_board_enabled = false
+window_manager_feature_subscribe_motion = false
+has_hisysevent_part = true
+event ces_hitrace_usage = true
+effect_host
+thermal_interface_service
+audio_service
+miscdevice_feature_vibrator_custom = true
+drivers_peripheral_huks
+display_buffer
+display_composer
+display_composer
+display_commontype
+wpa_vendor_gni = 
+wpa_supplicant_vendor_ext = false
+wpa_supplicant_wapi = false
+display_composer
+display_commontype
+display_buffer
+display_buffer
+display_commontype
+hisysevent_usage = false
+ans_hitrace_usage = true
+light_service
+usbd
+usbfn_mtp
+usbd
+usb_ddk
+vibrator_service
+vibrator_service
+vibrator_service
+idl config idl_list:  ["ITestServerInterface.idl"]
+idl config store:  ["//out/rk3588/gen/test/testfwk/arkxtest/testserver/src/test_server_interface_proxy.cpp", "//out/rk3588/gen/test/testfwk/arkxtest/testserver/src/test_server_interface_stub.cpp"] ["test_server_interface"]
+defines _ARM64_
+
+battery_interface_service
+["--in_zip_path", "../../third_party/mindspore/mindspore-v2.1.0.zip", "--out_src_path", "../../third_party/mindspore/mindspore-src", "--patch_dir", "../../third_party/mindspore/patches/"]
+memory_tracker_interface_service
+location_geofence
+drivers_peripheral_face_auth
+daudio
+location_agnss
+location_agnss
+daudioext
+daudioext
+default_toolchain =  //build/toolchain/ohos:ohos_clang_arm64
+current_toolchain =  //build/toolchain/ohos:ohos_clang_arm64
+host_toolchain =  //build/toolchain/linux:clang_x64
+root_out_dir =  //out/rk3588
+root_output_dir_proto =  out/rk3588/clang_x64
+imf_enable:  true
+imf_enable:  true
+imf_enable:  true
+imf_enable:  true
+imf_enable:  true
+hid_ddk
+input_service
+bundle_framework_power_mgr_enable = true
+bundle_framework_user_status_awareness_enable = false
+bundle_framework_graphics = true
+bundle_framework_free_install = true
+bundle_framework_default_app = true
+bundle_framework_launcher = true
+bundle_framework_sandbox_app = true
+bundle_framework_quick_fix = true
+bundle_framework_app_control = true
+distributed_bundle_framework = true
+ability_runtime_enable = true
+account_enable = true
+configpolicy_enable = true
+global_resmgr_enable = true
+hicollie_enable = true
+support_jsapi = true
+hisysevent_enable = true
+bundle_framework_overlay_install = true
+bundle_framework_bundle_resource = true
+verify_abc_enabled = true
+distributed_camera_provider_service
+wlan_service
+wpa_service
+wlan_service
+wlan_service
+chip
+hostapd_service
+drivers_peripheral_user_auth
+sensor_service
+codec_service
+codec_service
+codec_service
+codec_service
+ril_service
+ril_service
+ril_service
+drivers_peripheral_pin_auth
+Reading plugin sources: ets (//build/toolchain/ohos:ohos_clang_arm64)
+openssl detecting os now...
+current_cpu = arm64
+current_os = ohos
+host_os = linux
+is_mingw = false
+openssl selected linux-aarch64
+openssl detecting os done. openssl_selected_platform = linux-aarch64
+accessibility_enable =  true
+accessibility_enable =  true
+Build curl is_cares_on: true
+input_feature_infrared_emitter = true
+current_cpu = arm64
+current_os = ohos
+host_os = linux
+is_mingw = false
+ffmpeg selected aarch64
+e2fsprogs installed successfully
+histreamer plugin: ffmpeg_adapter = true
+histreamer plugin: wav_demuxer = false
+histreamer plugin: hdi_adapter = false
+histreamer plugin: file_source = true
+histreamer plugin: file_fd_source = true
+histreamer plugin: std_stream_source = false
+histreamer plugin: http_source = true
+histreamer plugin: stream_source = false
+histreamer plugin: audio_server_sink = true
+histreamer plugin: lite_aac_decoder = false
+histreamer plugin: std_video_surface_sink = true
+histreamer plugin: std_video_capture = false
+histreamer plugin: file_fd_sink = true
+histreamer plugin: codec_adapter = true
+cups_action is exec
+defines _ARM64_
+defines _ARM64_
+{ }
+imf_enable:  true
+account_enable_bm = true
+overlay_install_bm = true
+quick_fix_bm = true
+distributed_bundle_framework_bm = true
+target_out_dir //out/rk3588/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+target_dir /home/openharmony/out/rk3588/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+test_abc_dir /home/openharmony/out/rk3588/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+target_out_dir //out/rk3588/clang_x64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+target_dir /home/openharmony/out/rk3588/clang_x64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+test_abc_dir /home/openharmony/out/rk3588/clang_x64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+Reading plugin sources: ets (//build/toolchain/linux:clang_x64)
+Cares install
+e2fsprogs installed successfully
+idl config idl_list:  ["IListenAbility.idl"]
+idl config store:  ["//out/rk3588/gen/foundation/systemabilitymgr/safwk/test/services/safwk/unittest/listen_ability/listen_ability_proxy.cpp", "//out/rk3588/gen/foundation/systemabilitymgr/safwk/test/services/safwk/unittest/listen_ability/listen_ability_stub.cpp"] ["listen_ability"]
+libffi_action is exec
+bluetooth_hci
+Reading plugin sources: ets (//build/toolchain/mingw:mingw_x86_64)
+target_out_dir //out/rk3588/mingw_x86_64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+target_dir /home/openharmony/out/rk3588/mingw_x86_64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+test_abc_dir /home/openharmony/out/rk3588/mingw_x86_64/obj/arkcompiler/runtime_core/libark_defect_scan_aux/tests/unittest
+openssl detecting os now...
+current_cpu = x64
+current_os = linux
+host_os = linux
+is_mingw = false
+openssl selected linux-x86_64
+openssl detecting os done. openssl_selected_platform = linux-x86_64
+cmd ['/home/openharmony/third_party/openssl/make_openssl_build_all_generated.sh', '/home/openharmony/third_party/openssl', '/home/openharmony/out/rk3588/obj/third_party/openssl/build_all_generated', 'linux-aarch64'] start
+result.returncode = 0
+result.stdout = /home/openharmony/out/rk3588
+/home/openharmony/out/rk3588/obj/third_party/openssl/build_all_generated/linux-aarch64 /home/openharmony/out/rk3588
+/home/openharmony/third_party/openssl/Configure linux-aarch64 no-shared no-module
+Configuring OpenSSL version 3.0.9 for target linux-aarch64
+Using os-specific seed configuration
+Created configdata.pm
+Running configdata.pm
+Created Makefile.in
+Created Makefile
+Created include/openssl/configuration.h
+
+**********************************************************************
+***                                                                ***
+***   OpenSSL has been successfully configured                     ***
+***                                                                ***
+***   If you encounter a problem while building, please open an    ***
+***   issue on GitHub <https://github.com/openssl/openssl/issues>  ***
+***   and include the output from the following command:           ***
+***                                                                ***
+***       perl configdata.pm --dump                                ***
+***                                                                ***
+***   (If you are new to OpenSSL, you might want to consult the    ***
+***   'Troubleshooting' section in the INSTALL.md file first)      ***
+***                                                                ***
+**********************************************************************
+/home/openharmony/out/rk3588
+
+cmd ['/home/openharmony/third_party/openssl/make_openssl_build_all_generated.sh', '/home/openharmony/third_party/openssl', '/home/openharmony/out/rk3588/obj/third_party/openssl/build_all_generated', 'linux-aarch64'] ok
+
+cmd ['/home/openharmony/third_party/openssl/make_openssl_build_all_generated.sh', '/home/openharmony/third_party/openssl', '/home/openharmony/out/rk3588/clang_x64/obj/third_party/openssl/build_all_generated', 'linux-x86_64'] start
+result.returncode = 0
+result.stdout = /home/openharmony/out/rk3588
+/home/openharmony/out/rk3588/clang_x64/obj/third_party/openssl/build_all_generated/linux-x86_64 /home/openharmony/out/rk3588
+/home/openharmony/third_party/openssl/Configure linux-x86_64 no-shared no-module
+Configuring OpenSSL version 3.0.9 for target linux-x86_64
+Using os-specific seed configuration
+Created configdata.pm
+Running configdata.pm
+Created Makefile.in
+Created Makefile
+Created include/openssl/configuration.h
+
+**********************************************************************
+***                                                                ***
+***   OpenSSL has been successfully configured                     ***
+***                                                                ***
+***   If you encounter a problem while building, please open an    ***
+***   issue on GitHub <https://github.com/openssl/openssl/issues>  ***
+***   and include the output from the following command:           ***
+***                                                                ***
+***       perl configdata.pm --dump                                ***
+***                                                                ***
+***   (If you are new to OpenSSL, you might want to consult the    ***
+***   'Troubleshooting' section in the INSTALL.md file first)      ***
+***                                                                ***
+**********************************************************************
+/home/openharmony/out/rk3588
+
+cmd ['/home/openharmony/third_party/openssl/make_openssl_build_all_generated.sh', '/home/openharmony/third_party/openssl', '/home/openharmony/out/rk3588/clang_x64/obj/third_party/openssl/build_all_generated', 'linux-x86_64'] ok
+
+Done prepare mindspore source.
+WARNING at the command-line "--args":1:236: Build argument has no effect.
+product_name="dayu210" product_path="/home/openharmony/vendor/hihope/dayu210" product_config_path="/home/openharmony/vendor/hihope/dayu210" device_name="rk3588" device_path="/home/openharmony/device/board/HiHope/rk3588" device_company="HiHope" device_config_path="/home/openharmony/device/board/HiHope/rk3588" target_cpu="arm64" precise_branch="" is_standard_system=true ohos_build_compiler_specified="" ohos_build_time=1722619733092 ohos_build_datetime="2024-08-03 09:28:53" ace_engine_feature_enable_accessibility=true ace_engine_feature_enable_web=true datamgr_service_udmf=true code_signature_support_oh_code_sign=false enable_ohos_startup_init_feature_ab_partition=true enable_ohos_startup_init_feature_loader=true dsoftbus_feature_conn_p2p=true dsoftbus_feature_disc_ble=true dsoftbus_feature_conn_br=true dsoftbus_feature_conn_ble=true dsoftbus_feature_trans_udp_stream=true wifi_feature_non_seperate_p2p=true wifi_feature_non_hdf_driver=true wifi_feature_with_hdi_chip_supported=false graphic_2d_feature_rs_enable_eglimage=true graphic_2d_feature_use_texgine=true multimedia_player_framework_use_codec_plugins=false audio_framework_feature_dtmf_tone=true audio_framework_feature_opensl_es=true audio_framework_feature_support_os_account=false input_feature_combination_key=true input_feature_pointer_drawing=true input_feature_interceptor=true input_feature_monitor=true input_feature_keyboard=true input_feature_mouse=true input_feature_touchscreen=true input_feature_input_device=true memmgr_purgeable_memory=true fusion_interaction_coordination=false wpa_supplicant_driver_nl80211=true hdf_core_platform_test_support=true drivers_peripheral_input_feature_support_ddk=true drivers_peripheral_input_feature_model=true drivers_peripheral_display_community=true drivers_peripheral_wlan_feature_enable_HDF_NL80211=true drivers_peripheral_wlan_feature_enable_HDF_UT=false drivers_peripheral_sensor_feature_model=true drivers_peripheral_audio_feature_hal_notsupport_pathselect=true drivers_peripheral_audio_feature_full_test_suite=true drivers_peripheral_audio_feature_alsa_lib=false drivers_peripheral_light_feature_model=true drivers_peripheral_vibrator_feature_model=true use_ffrt=true ohos_build_enable_ccache=true ohos_build_type="debug" device_type="default" build_variant="root" root_perf_main="main" runtime_mode="release"
+                                                                                                                                                                                                                                           ^-------
+The variable "device_company" was set as a build argument
+but never appeared in a declare_args() block in any buildfile.
+
+To view all possible args, run "gn args --list <out_dir>"
+
+The build continued as if that argument was unspecified.
+
+Done. Made 81384 targets from 9861 files in 55637ms
+[OHOS INFO] Excuting ninja command: /home/openharmony/prebuilts/build-tools/linux-x86/bin/ninja -w dupbuild=warn -C /home/openharmony/out/rk3588 images
+ninja: Entering directory `/home/openharmony/out/rk3588'
+ninja: warning: multiple rules generate obj/base/account/os_account/services/accountmgr/src/bundle_manager_adapter/bundle_manager_adapter_module_test/bundle_manager_adapter_proxy.o. builds involving this target will not be correct; continuing anyway
+ninja: warning: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp. builds involving this target will not be correct; continuing anyway
+ninja: warning: multiple rules generate obj/developtools/ace_ets2bundle/install_arkguard_tsc.stamp. builds involving this target will not be correct; continuing anyway
+ninja: error: '../../drivers/peripheral/camera/vdi_base/v4l2/src/camera_dump.cpp', needed by 'obj/drivers/peripheral/camera/vdi_base/v4l2/src/camera_host_vdi_impl_1.0/camera_dump.o', missing and no known rule to make it

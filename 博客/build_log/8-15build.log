@@ -1,0 +1,363 @@
+[21741/72518] ACTION //device/board/hihope/dayu210/kernel:kernel(//build/toolchain/ohos:ohos_clang_arm64)
+FAILED: ../kernel/src_tmp/linux-5.10/boot_linux 
+/usr/bin/env ../../device/board/hihope/dayu210/kernel/build_kernel.sh ../../kernel/linux/linux-5.10 /home/openharmony/out/rk3588/packages/phone/images /home/openharmony/device/board/hihope/dayu210 vendor/hihope/dayu210 /home/openharmony hihope rk3588 hihope enable_ramdisk
+/home/openharmony/kernel/linux/linux-5.10 /home/openharmony/out/rk3588
+cp kernel source
+HDF patch
+patching file arch/arm64/kernel/vmlinux.lds.S
+Hunk #1 succeeded at 201 with fuzz 2.
+patching file drivers/Kconfig
+patching file drivers/Makefile
+Hunk #1 succeeded at 192 with fuzz 1 (offset 1 line).
+patching file drivers/hdf/Makefile
+patching file drivers/hid/Makefile
+patching file drivers/hid/hid-core.c
+Hunk #2 succeeded at 1536 (offset 10 lines).
+Hunk #3 succeeded at 1951 (offset 14 lines).
+Hunk #4 succeeded at 2125 (offset 14 lines).
+Hunk #5 succeeded at 2143 (offset 14 lines).
+Hunk #6 succeeded at 2231 (offset 14 lines).
+patching file drivers/hid/hid-input.c
+Hunk #2 succeeded at 1441 (offset 21 lines).
+Hunk #3 succeeded at 1900 (offset 21 lines).
+Hunk #4 succeeded at 2021 (offset 21 lines).
+patching file drivers/input/misc/Makefile
+patching file drivers/input/misc/rk805-pwrkey.c
+patching file drivers/input/mousedev.c
+patching file drivers/usb/core/notify.c
+patching file include/linux/hid.h
+Hunk #1 succeeded at 624 (offset 2 lines).
+patching file include/linux/usb.h
+Hunk #1 succeeded at 2029 (offset 10 lines).
+/home/openharmony/out/kernel/src_tmp/linux-5.10
+kernel patch
+patching file Makefile
+Hunk #1 succeeded at 500 (offset 7 lines).
+Hunk #2 succeeded at 954 (offset -4 lines).
+Hunk #3 succeeded at 1391 (offset -4 lines).
+patching file arch/arm64/Makefile
+patching file arch/arm64/boot/Makefile
+patching file arch/arm64/kernel/cpuinfo.c
+patching file drivers/clk/rockchip/Kconfig
+patching file drivers/clk/rockchip/clk-cpu.c
+patching file drivers/clk/rockchip/clk-ddr.c
+patching file drivers/clk/rockchip/clk-half-divider.c
+patching file drivers/clk/rockchip/clk-pll.c
+patching file drivers/clk/rockchip/clk.c
+patching file drivers/clk/rockchip/clk.h
+patching file drivers/clocksource/Kconfig
+patching file drivers/clocksource/timer-rockchip.c
+patching file drivers/cpufreq/cpufreq-dt-platdev.c
+patching file drivers/cpufreq/cpufreq-dt.c
+patching file drivers/cpufreq/cpufreq.c
+patching file drivers/cpufreq/cpufreq_userspace.c
+patching file drivers/cpuidle/driver.c
+patching file drivers/cpuidle/governor.c
+patching file drivers/devfreq/devfreq.c
+patching file drivers/devfreq/event/rockchip-dfi.c
+patching file drivers/dma-buf/Kconfig
+patching file drivers/dma-buf/Makefile
+patching file drivers/dma-buf/dma-buf-sysfs-stats.c
+patching file drivers/dma-buf/dma-buf.c
+patching file drivers/dma-buf/dma-fence.c
+patching file drivers/dma-buf/dma-heap.c
+Hunk #6 succeeded at 172 (offset -3 lines).
+Hunk #7 succeeded at 238 (offset -3 lines).
+Hunk #8 succeeded at 291 (offset -3 lines).
+Hunk #9 succeeded at 309 (offset -3 lines).
+Hunk #10 succeeded at 347 (offset -3 lines).
+Hunk #11 succeeded at 376 (offset -3 lines).
+patching file drivers/dma-buf/heaps/Kconfig
+patching file drivers/dma-buf/heaps/Makefile
+patching file drivers/dma-buf/heaps/cma_heap.c
+patching file drivers/dma-buf/heaps/system_heap.c
+patching file drivers/dma-buf/sw_sync.c
+patching file drivers/dma-buf/sync_debug.h
+patching file drivers/gpio/gpiolib-of.c
+patching file drivers/gpio/gpiolib-of.h
+patching file drivers/gpu/drm/Kconfig
+patching file drivers/gpu/drm/bridge/analogix/analogix_dp_core.c
+patching file drivers/gpu/drm/bridge/analogix/analogix_dp_core.h
+patching file drivers/gpu/drm/bridge/analogix/analogix_dp_reg.c
+patching file drivers/gpu/drm/bridge/analogix/analogix_dp_reg.h
+patching file drivers/gpu/drm/bridge/synopsys/dw-hdmi-audio.h
+patching file drivers/gpu/drm/bridge/synopsys/dw-hdmi-cec.c
+patching file drivers/gpu/drm/bridge/synopsys/dw-hdmi.c
+patching file drivers/gpu/drm/bridge/synopsys/dw-hdmi.h
+patching file drivers/gpu/drm/bridge/synopsys/dw-mipi-dsi.c
+patching file drivers/gpu/drm/drm_atomic_helper.c
+patching file drivers/gpu/drm/drm_atomic_state_helper.c
+patching file drivers/gpu/drm/drm_atomic_uapi.c
+Hunk #1 succeeded at 461 (offset 2 lines).
+Hunk #2 succeeded at 513 (offset 2 lines).
+patching file drivers/gpu/drm/drm_auth.c
+patching file drivers/gpu/drm/drm_color_mgmt.c
+patching file drivers/gpu/drm/drm_debugfs.c
+patching file drivers/gpu/drm/drm_edid.c
+patching file drivers/gpu/drm/drm_file.c
+patching file drivers/gpu/drm/drm_fourcc.c
+patching file drivers/gpu/drm/drm_ioctl.c
+patching file drivers/gpu/drm/drm_lease.c
+patching file drivers/gpu/drm/drm_mipi_dsi.c
+patching file drivers/gpu/drm/drm_mode_config.c
+patching file drivers/gpu/drm/drm_modes.c
+patching file drivers/gpu/drm/drm_prime.c
+patching file drivers/gpu/drm/drm_vblank.c
+patching file drivers/gpu/drm/panel/panel-simple.c
+patching file drivers/gpu/drm/rockchip/analogix_dp-rockchip.c
+patching file drivers/gpu/drm/rockchip/cdn-dp-core.c
+patching file drivers/gpu/drm/rockchip/cdn-dp-core.h
+patching file drivers/gpu/drm/rockchip/dw-mipi-dsi-rockchip.c
+patching file drivers/gpu/drm/rockchip/dw_hdmi-rockchip.c
+patching file drivers/gpu/drm/rockchip/inno_hdmi.c
+patching file drivers/gpu/drm/rockchip/rockchip_drm_drv.c
+patching file drivers/gpu/drm/rockchip/rockchip_drm_drv.h
+patching file drivers/gpu/drm/rockchip/rockchip_drm_fb.c
+patching file drivers/gpu/drm/rockchip/rockchip_drm_fb.h
+patching file drivers/gpu/drm/rockchip/rockchip_drm_fbdev.c
+patching file drivers/gpu/drm/rockchip/rockchip_drm_gem.c
+Hunk #9 succeeded at 540 with fuzz 2.
+Hunk #10 succeeded at 604 (offset -3 lines).
+Hunk #11 succeeded at 621 (offset -3 lines).
+Hunk #12 succeeded at 637 (offset -3 lines).
+Hunk #13 succeeded at 650 (offset -3 lines).
+Hunk #14 succeeded at 689 (offset -3 lines).
+Hunk #15 succeeded at 711 (offset -3 lines).
+Hunk #16 succeeded at 755 (offset -3 lines).
+Hunk #17 succeeded at 764 (offset -3 lines).
+Hunk #18 succeeded at 855 (offset -3 lines).
+Hunk #19 succeeded at 902 (offset -3 lines).
+patching file drivers/gpu/drm/rockchip/rockchip_drm_gem.h
+patching file drivers/gpu/drm/rockchip/rockchip_drm_vop.c
+patching file drivers/gpu/drm/rockchip/rockchip_drm_vop.h
+patching file drivers/gpu/drm/rockchip/rockchip_lvds.c
+patching file drivers/gpu/drm/rockchip/rockchip_rgb.c
+patching file drivers/gpu/drm/rockchip/rockchip_rgb.h
+patching file drivers/gpu/drm/rockchip/rockchip_vop_reg.c
+patching file drivers/gpu/drm/rockchip/rockchip_vop_reg.h
+patching file drivers/i2c/busses/i2c-rk3x.c
+patching file drivers/i2c/i2c-core-base.c
+patching file drivers/iio/adc/rockchip_saradc.c
+patching file drivers/input/Makefile
+patching file drivers/input/misc/Kconfig
+patching file drivers/input/misc/rk805-pwrkey.c
+Hunk #1 succeeded at 13 with fuzz 2.
+Hunk #2 succeeded at 60 (offset 20 lines).
+patching file drivers/iommu/Kconfig
+patching file drivers/iommu/dma-iommu.c
+patching file drivers/iommu/iommu.c
+patching file drivers/iommu/iova.c
+patching file drivers/iommu/rockchip-iommu.c
+Hunk #41 succeeded at 1818 with fuzz 2.
+Hunk #42 succeeded at 1852 (offset 2 lines).
+Hunk #43 succeeded at 1866 (offset 2 lines).
+Hunk #44 succeeded at 1878 (offset 2 lines).
+Hunk #45 succeeded at 1894 (offset 2 lines).
+patching file drivers/irqchip/irq-gic-v3-its.c
+patching file drivers/irqchip/irq-gic-v3.c
+patching file drivers/irqchip/irq-gic-v4.c
+patching file drivers/media/platform/Kconfig
+patching file drivers/media/platform/Makefile
+patching file drivers/media/usb/uvc/uvc_driver.c
+Hunk #2 succeeded at 2332 (offset -10 lines).
+patching file drivers/media/v4l2-core/v4l2-async.c
+patching file drivers/mfd/rk808.c
+patching file drivers/mmc/core/block.c
+patching file drivers/mmc/core/block.h
+patching file drivers/mmc/core/core.c
+patching file drivers/mmc/core/core.h
+patching file drivers/mmc/core/mmc.c
+patching file drivers/mmc/core/mmc_ops.c
+patching file drivers/mmc/core/queue.c
+patching file drivers/mmc/core/sd.c
+patching file drivers/mmc/core/sdio.c
+patching file drivers/mmc/core/slot-gpio.c
+patching file drivers/mmc/host/Kconfig
+patching file drivers/mmc/host/Makefile
+patching file drivers/mmc/host/cqhci.h
+patching file drivers/mmc/host/dw_mmc-rockchip.c
+patching file drivers/mmc/host/dw_mmc.c
+patching file drivers/mmc/host/dw_mmc.h
+patching file drivers/mmc/host/sdhci-of-dwcmshc.c
+patching file drivers/net/ethernet/stmicro/stmmac/dwmac-generic.c
+patching file drivers/net/ethernet/stmicro/stmmac/dwmac-rk.c
+Hunk #22 succeeded at 1952 with fuzz 2 (offset -3 lines).
+Hunk #23 succeeded at 1976 (offset -6 lines).
+Hunk #24 succeeded at 1987 (offset -6 lines).
+Hunk #25 succeeded at 1998 (offset -6 lines).
+Hunk #26 succeeded at 2045 (offset -6 lines).
+Hunk #27 succeeded at 2104 (offset -6 lines).
+Hunk #28 succeeded at 2118 (offset -6 lines).
+Hunk #29 succeeded at 2229 (offset -6 lines).
+Hunk #30 succeeded at 2253 (offset -6 lines).
+Hunk #31 succeeded at 2273 (offset -6 lines).
+Hunk #32 succeeded at 2311 (offset -6 lines).
+patching file drivers/net/ethernet/stmicro/stmmac/dwmac1000_dma.c
+patching file drivers/net/ethernet/stmicro/stmmac/dwmac4_dma.c
+patching file drivers/net/ethernet/stmicro/stmmac/dwmac4_lib.c
+patching file drivers/net/ethernet/stmicro/stmmac/dwxgmac2_dma.c
+patching file drivers/net/ethernet/stmicro/stmmac/hwif.h
+patching file drivers/net/ethernet/stmicro/stmmac/stmmac_main.c
+Hunk #6 succeeded at 1357 (offset 1 line).
+Hunk #7 succeeded at 2359 (offset 1 line).
+Hunk #8 succeeded at 2713 (offset 1 line).
+Hunk #9 succeeded at 2723 (offset 1 line).
+Hunk #10 succeeded at 2779 (offset 1 line).
+Hunk #11 succeeded at 3701 (offset 1 line).
+Hunk #12 succeeded at 3719 (offset 1 line).
+Hunk #13 succeeded at 5091 (offset 5 lines).
+Hunk #14 succeeded at 5463 (offset 5 lines).
+Hunk #15 succeeded at 5494 (offset 5 lines).
+patching file drivers/net/ethernet/stmicro/stmmac/stmmac_platform.c
+patching file drivers/nvmem/core.c
+patching file drivers/nvmem/rockchip-efuse.c
+patching file drivers/nvmem/rockchip-otp.c
+patching file drivers/opp/debugfs.c
+patching file drivers/opp/of.c
+patching file drivers/pci/controller/Makefile
+patching file drivers/pci/controller/dwc/pcie-designware.c
+patching file drivers/pci/controller/dwc/pcie-designware.h
+patching file drivers/pci/controller/pcie-rockchip-host.c
+patching file drivers/pci/controller/pcie-rockchip.c
+patching file drivers/pci/controller/pcie-rockchip.h
+patching file drivers/phy/rockchip/Makefile
+patching file drivers/phy/rockchip/phy-rockchip-inno-dsidphy.c
+patching file drivers/phy/rockchip/phy-rockchip-inno-usb2.c
+patching file drivers/phy/rockchip/phy-rockchip-pcie.c
+patching file drivers/phy/rockchip/phy-rockchip-typec.c
+Hunk #15 succeeded at 1379 (offset -1 lines).
+Hunk #16 succeeded at 1432 (offset -1 lines).
+Hunk #17 succeeded at 1513 (offset -1 lines).
+Hunk #18 succeeded at 1523 (offset -1 lines).
+Hunk #19 succeeded at 1543 (offset -1 lines).
+Hunk #20 succeeded at 1552 (offset -1 lines).
+Hunk #21 succeeded at 1575 (offset -1 lines).
+Hunk #22 succeeded at 1614 (offset -1 lines).
+patching file drivers/phy/rockchip/phy-rockchip-usb.c
+patching file drivers/pinctrl/Kconfig
+patching file drivers/pinctrl/pinctrl-rk805.c
+
+patching file drivers/pinctrl/pinctrl-rockchip.c
+Hunk #11 FAILED at 936.
+Hunk #26 succeeded at 2615 (offset 9 lines).
+Hunk #27 succeeded at 2775 (offset 9 lines).
+Hunk #28 succeeded at 2905 (offset 9 lines).
+Hunk #29 succeeded at 2916 (offset 9 lines).
+Hunk #30 succeeded at 2939 (offset 9 lines).
+Hunk #31 succeeded at 2977 (offset 9 lines).
+Hunk #32 succeeded at 3010 (offset 9 lines).
+Hunk #33 succeeded at 3055 (offset 9 lines).
+Hunk #34 succeeded at 3078 (offset 9 lines).
+Hunk #35 succeeded at 3107 (offset 9 lines).
+Hunk #36 succeeded at 3137 (offset 9 lines).
+Hunk #37 succeeded at 3243 (offset 9 lines).
+Hunk #38 succeeded at 3359 (offset 9 lines).
+Hunk #39 succeeded at 3367 (offset 9 lines).
+Hunk #40 succeeded at 3382 (offset 9 lines).
+Hunk #41 succeeded at 3394 (offset 9 lines).
+Hunk #42 succeeded at 3401 (offset 9 lines).
+Hunk #43 succeeded at 3425 (offset 9 lines).
+Hunk #44 succeeded at 3456 (offset 9 lines).
+Hunk #45 succeeded at 3551 (offset 9 lines).
+Hunk #46 succeeded at 3664 (offset 9 lines).
+Hunk #47 succeeded at 3747 (offset 9 lines).
+Hunk #48 succeeded at 3774 (offset 9 lines).
+Hunk #49 succeeded at 3976 (offset 9 lines).
+Hunk #50 succeeded at 4053 (offset 9 lines).
+Hunk #51 succeeded at 4214 (offset 9 lines).
+Hunk #52 succeeded at 4276 (offset 9 lines).
+Hunk #53 succeeded at 4296 (offset 9 lines).
+1 out of 53 hunks FAILED -- saving rejects to file drivers/pinctrl/pinctrl-rockchip.c.rej
+patching file drivers/power/reset/reboot-mode.c
+patching file drivers/power/reset/syscon-reboot-mode.c
+patching file drivers/power/supply/power_supply_core.c
+Hunk #2 succeeded at 532 (offset 3 lines).
+patching file drivers/power/supply/power_supply_sysfs.c
+patching file drivers/pwm/pwm-rockchip.c
+patching file drivers/pwm/sysfs.c
+patching file drivers/soc/rockchip/grf.c
+patching file drivers/soc/rockchip/io-domain.c
+patching file drivers/soc/rockchip/pm_domains.c
+patching file drivers/spi/spi-rockchip.c
+patching file drivers/spi/spidev.c
+patching file drivers/staging/android/Makefile
+patching file drivers/thermal/rockchip_thermal.c
+patching file drivers/tty/serial/8250/8250.h
+Hunk #5 succeeded at 354 (offset 7 lines).
+patching file drivers/tty/serial/8250/8250_core.c
+Hunk #4 succeeded at 1260 (offset 1 line).
+patching file drivers/tty/serial/8250/8250_dma.c
+patching file drivers/tty/serial/8250/8250_dw.c
+patching file drivers/tty/serial/8250/8250_dwlib.c
+patching file drivers/tty/serial/8250/8250_port.c
+Hunk #1 succeeded at 123 (offset 1 line).
+Hunk #2 succeeded at 1537 (offset 1 line).
+Hunk #3 succeeded at 1873 (offset 1 line).
+Hunk #4 succeeded at 1890 (offset 1 line).
+Hunk #6 succeeded at 1912 (offset 2 lines).
+Hunk #7 succeeded at 1942 (offset 4 lines).
+Hunk #8 succeeded at 2449 (offset 10 lines).
+Hunk #9 succeeded at 2647 (offset 10 lines).
+Hunk #10 succeeded at 2670 (offset 10 lines).
+Hunk #11 succeeded at 2860 (offset 10 lines).
+Hunk #12 succeeded at 2874 (offset 10 lines).
+Hunk #13 succeeded at 2893 (offset 10 lines).
+Hunk #14 succeeded at 2919 (offset 10 lines).
+patching file drivers/usb/class/cdc-acm.c
+patching file drivers/usb/class/cdc-acm.h
+patching file drivers/usb/common/Kconfig
+patching file drivers/usb/common/debug.c
+patching file drivers/usb/core/config.c
+patching file drivers/usb/core/driver.c
+patching file drivers/usb/core/hcd.c
+Hunk #1 succeeded at 1696 (offset 4 lines).
+Hunk #2 succeeded at 1710 (offset 4 lines).
+Hunk #3 succeeded at 1738 (offset 4 lines).
+Hunk #4 succeeded at 1749 (offset 4 lines).
+Hunk #5 succeeded at 1764 (offset 4 lines).
+Hunk #6 succeeded at 2665 (offset 4 lines).
+Hunk #7 succeeded at 2803 (offset 4 lines).
+Hunk #8 succeeded at 2821 (offset 4 lines).
+Hunk #9 succeeded at 2870 (offset 4 lines).
+Hunk #10 succeeded at 2880 (offset 4 lines).
+Hunk #11 succeeded at 2889 (offset 4 lines).
+patching file drivers/usb/core/hub.c
+Hunk #1 succeeded at 1120 (offset 8 lines).
+Hunk #2 succeeded at 1235 (offset 8 lines).
+Hunk #3 succeeded at 1837 (offset 8 lines).
+Hunk #4 succeeded at 4731 (offset 100 lines).
+patch: **** malformed patch at line 59961: }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@@ -954,19 +936,20 @@ static struct rockchip_mux_route_data rk3568_mux_route_data[] = {
+	RK_MUXROUTE_PMU(0, RK_PB5, 4, 0x0110, WRITE_MASK_VAL(3, 2, 1)), /* PWM1 IO mux M1 */
+	RK_MUXROUTE_PMU(0, RK_PC1, 1, 0x0110, WRITE_MASK_VAL(5, 4, 0)), /* PWM2 IO mux M0 */
+	RK_MUXROUTE_PMU(0, RK_PB6, 4, 0x0110, WRITE_MASK_VAL(5, 4, 1)), /* PWM2 IO mux M1 */
+	RK_MUXROUTE_GRF(0, RK_PB3, 2, 0x0300, WRITE_MASK_VAL(0, 0, 0)), /* CAN0 IO mux M0 */
+	RK_MUXROUTE_GRF(2, RK_PA1, 4, 0x0300, WRITE_MASK_VAL(0, 0, 1)), /* CAN0 IO mux M1 */
+	RK_MUXROUTE_GRF(1, RK_PA1, 3, 0x0300, WRITE_MASK_VAL(2, 2, 0)), /* CAN1 IO mux M0 */
+	RK_MUXROUTE_GRF(4, RK_PC3, 3, 0x0300, WRITE_MASK_VAL(2, 2, 1)), /* CAN1 IO mux M1 */
+	RK_MUXROUTE_GRF(4, RK_PB5, 3, 0x0300, WRITE_MASK_VAL(4, 4, 0)), /* CAN2 IO mux M0 */
+	RK_MUXROUTE_GRF(2, RK_PB2, 4, 0x0300, WRITE_MASK_VAL(4, 4, 1)), /* CAN2 IO mux M1 */
+	RK_MUXROUTE_GRF(4, RK_PC4, 1, 0x0300, WRITE_MASK_VAL(6, 6, 0)), /* HPDIN IO mux M0 */
+	RK_MUXROUTE_GRF(0, RK_PC2, 2, 0x0300, WRITE_MASK_VAL(6, 6, 1)), /* HPDIN IO mux M1 */
+	RK_MUXROUTE_GRF(3, RK_PB1, 3, 0x0300, WRITE_MASK_VAL(8, 8, 0)), /* GMAC1 IO mux M0 */
+	RK_MUXROUTE_GRF(4, RK_PA7, 3, 0x0300, WRITE_MASK_VAL(8, 8, 1)), /* GMAC1 IO mux M1 */
++	RK_MUXROUTE_GRF(4, RK_PB7, 3, 0x0300, WRITE_MASK_VAL(8, 8, 1)), /* GMAC1 IO mux M1 */
+	RK_MUXROUTE_GRF(4, RK_PD1, 1, 0x0300, WRITE_MASK_VAL(10, 10, 0)), /* HDMITX IO mux M0 */
+	RK_MUXROUTE_GRF(0, RK_PC7, 1, 0x0300, WRITE_MASK_VAL(10, 10, 1)), /* HDMITX IO mux M1 */
+	RK_MUXROUTE_GRF(0, RK_PB6, 1, 0x0300, WRITE_MASK_VAL(14, 14, 0)), /* I2C2 IO mux M0 */
+	RK_MUXROUTE_GRF(4, RK_PB4, 1, 0x0300, WRITE_MASK_VAL(14, 14, 1)), /* I2C2 IO mux M1 */
+	RK_MUXROUTE_GRF(1, RK_PA0, 1, 0x0304, WRITE_MASK_VAL(0, 0, 0)), /* I2C3 IO mux M0 */
+	RK_MUXROUTE_GRF(3, RK_PB6, 4, 0x0304, WRITE_MASK_VAL(0, 0, 1)), /* I2C3 IO mux M1 */
